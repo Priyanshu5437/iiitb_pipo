@@ -330,23 +330,23 @@ $ ./flow.tcl -design iiitb_pipo
 
 ### 1. Post Layout synthesis gate count
 ![Screenshot from 2023-02-25 00-08-56](https://user-images.githubusercontent.com/110079807/221264114-96f1695b-6da9-4164-ae5b-d6e159daecf9.png)
-<b><I> Gate Count =12 </b></I> <br>
+<b><I> Gate Count =8 </b></I> <br>
 
 ### 2. Area (box command)
 ![Screenshot from 2023-02-24 23-44-56](https://user-images.githubusercontent.com/110079807/221260508-b4a45c3b-43f4-47da-a17a-361170563e44.png)
 
-<b><I> Area =  um2</b></I> <br>
+<b><I> Area =3600  um2</b></I> <br>
 
 ### 3. Flop/standard cell ratio
 ![Screenshot from 2023-02-25 00-08-56](https://user-images.githubusercontent.com/110079807/221264114-96f1695b-6da9-4164-ae5b-d6e159daecf9.png)
-<b><I>Flop Ratio = Ratio of total number of flip flops / Total number of cells present in the design = 4/12 = 0.333 </b></I><br>
+<b><I>Flop Ratio = Ratio of total number of flip flops / Total number of cells present in the design = 5/8 = 0.625 </b></I><br>
 
 ### 4. Power (internal, switching, leakage and total)
 ![Screenshot from 2023-02-25 00-11-02](https://user-images.githubusercontent.com/110079807/221264129-9e1999a9-d1da-4e16-8e39-cabd3bdfac6f.png)
-<b><I> Internal Power = 3.02 uW (72.4%) </b></I><br>
-<b><I> Switching Power =  1.15 uW (27.6%) </b></I><br>
-<b><I> Leakage Power = 0.141 nW (0.00%) </b></I><br>
-<b><I> Total Power = 4.18 uW (100%) </b></I><br>
+<b><I> Internal Power = 30.92 uW (84.2%) </b></I><br>
+<b><I> Switching Power =  5.82uW (15.8%) </b></I><br>
+<b><I> Leakage Power = 0.209 nW (0.00%) </b></I><br>
+<b><I> Total Power = 36.7 uW (100%) </b></I><br>
 #### 5.PERFORMANCE
 ![Screenshot from 2023-02-25 00-22-48](https://user-images.githubusercontent.com/110079807/221267032-75cf55f7-c20a-41b8-bdb6-8468391aaced.png)
 ![Screenshot from 2023-02-25 00-22-54](https://user-images.githubusercontent.com/110079807/221267057-f609ee0d-df5a-4cc7-8343-decc72f91c6d.png)
