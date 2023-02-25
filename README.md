@@ -216,6 +216,23 @@ The contents of the config.json are as follows. this can be modified specificall
 }
 }
 ```
+# Creating a Custom Inverter Cell
+
+Open Terminal in the folder you want to create the custom inverter cell.
+
+```
+$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git
+
+$ cd vsdstdcelldesign
+
+$  cp ./libs/sky130A.tech sky130A.tech
+
+$ magic -T sky130A.tech sky130_inv.mag &
+```
+![Screenshot from 2023-02-25 11-10-56](https://user-images.githubusercontent.com/110079807/221342730-817473f4-7c66-45e1-990c-5ed9ab4bbcf8.png)
+![Screenshot from 2023-02-25 11-50-15](https://user-images.githubusercontent.com/110079807/221342733-cedd74e7-40d6-49bd-8c40-e2a66c126f7c.png)
+![Screenshot from 2023-02-25 11-51-14](https://user-images.githubusercontent.com/110079807/221342734-cce1bd52-a482-48c8-b165-88149fcf56bf.png)
+
 Saving changes done and Navigate to the openlane folder in terminal and give  command :<br>
 ```
 $ make mount
