@@ -388,3 +388,41 @@ $ ./flow.tcl -design iiitb_pipo
 ![Screenshot from 2023-02-25 13-43-37](https://user-images.githubusercontent.com/110079807/221346658-52a80477-79b9-4911-a199-ee8248fd96c8.png)
 
 <b><I> Performance = 1/(clock period - slack) = 1/(24 - 18.40)ns = 175.571Mhz </b></I><br>
+### Reference
+
+
+- https://en.wikipedia.org/wiki/Pipo
+- https://github.com/The-OpenROAD-Project/OpenLane
+
+- https://github.com/YosysHQ/yosys
+
+- https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
+
+- https://github.com/kunalg123/vsdflow
+
+### Author
+
+- Priyanshu
+
+### Contributors
+- Priyanshu </br>
+- Dantu Nandini Devi </br>
+- Kunal Ghosh </br>
+
+### Acknowledgement
+
+
+- Kunal Ghosh, VSD Corp. Pvt. Ltd. </br>
+- Nanditha Rao, Professor, IIITB </br>
+- Madhav Rao, Professor, IIITB </br>
+- Efabless Corporation
+- Skywater Foundry
+- Open Road
+- Google
+
+### Contact Information
+
+- Priyanshu, Mtech Student, IIITB, priyanshusingh0402.ps@gmail.com </br>
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com </br>
+- Nanditha Rao, nanditha.rao@iiitb.ac.in </br>
+- Madhav Rao, mr@iiitb.ac.in </br>
