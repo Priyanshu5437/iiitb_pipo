@@ -233,18 +233,21 @@ $ magic -T sky130A.tech sky130_inv.mag &
 ![Screenshot from 2023-02-25 11-10-56](https://user-images.githubusercontent.com/110079807/221342730-817473f4-7c66-45e1-990c-5ed9ab4bbcf8.png)
 ![Screenshot from 2023-02-25 11-50-15](https://user-images.githubusercontent.com/110079807/221342733-cedd74e7-40d6-49bd-8c40-e2a66c126f7c.png)
 ![Screenshot from 2023-02-25 11-51-14](https://user-images.githubusercontent.com/110079807/221342734-cce1bd52-a482-48c8-b165-88149fcf56bf.png)
-1.Rise time:
+#### 1.Rise time:
 ![Screenshot from 2023-02-25 12-28-37](https://user-images.githubusercontent.com/110079807/221344503-4c12865e-74fd-4cc6-9444-23fcec2c27ea.png)
 ![Screenshot from 2023-02-25 12-34-34](https://user-images.githubusercontent.com/110079807/221344506-c5828c14-8bfc-479f-87c3-4269e2533edc.png)
 `Rise time = (2.2000ns - 2.1567ns) = 43.3ps`
-2.Fall time:
+
+#### 2.Fall time:
 ![Screenshot from 2023-02-25 12-35-53](https://user-images.githubusercontent.com/110079807/221344508-f6f4ae41-2664-441f-951a-7ceae61c9c9e.png)
 ![Screenshot from 2023-02-25 12-38-19](https://user-images.githubusercontent.com/110079807/221344512-072881a6-3b0f-405c-ac87-0acaa6b5aa40.png)
 `Fall time = (4.06756ns - 4.0401ns) = 27.46ps`
-3.Cell rise delay
+
+#### 3.Cell rise delay
 ![Screenshot from 2023-02-25 12-42-54](https://user-images.githubusercontent.com/110079807/221344515-697b2499-7760-4d1c-bbcc-d800a6f185b0.png)
 `Cell rise delay = ( 2.18198ns -2.15011ns) =31.7ps`  
-4.Cell fall delay
+
+#### 4.Cell fall delay
 ![Screenshot from 2023-02-25 13-00-23](https://user-images.githubusercontent.com/110079807/221344901-99903b5b-ed48-40e7-a48a-405a2ddd74a9.png)
 `Cell fall delay = (4.05365 ns- 4.04999ns) = 3.66ps`
 
