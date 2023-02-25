@@ -1,5 +1,7 @@
 # iiitb_pipo -- johnson counter
 ### Descripton
+A Johnson counter is a type of synchronous counter used in digital circuits that uses feedback to create a ring structure. It consists of a series of flip-flops with the complemented output of the last flip-flop connected to the input of the first flip-flop. This creates a circular shift register that cycles through all possible binary states before repeating itself. Johnson counters are used in applications such as frequency division, sequence generation, and digital signal processing. They are also known by several other names, including creeping counter, twisted ring counter, walking counter, mobile counter, and switch tail counter.
+
 # Tools Used
 
 ### Layout
@@ -98,33 +100,9 @@ To clone the repository, download the netlist files and simulate the results, En
  $ gtkwave iiitb_pipo_vcd.vcd
 ```
 
-# PostSynthesis
+![Screenshot from 2023-02-25 18-37-18](https://user-images.githubusercontent.com/110079807/221359396-9150cce2-a294-4207-a5fb-4c0735ffe86f.png)
 
-```
-$ yosys
 
-yosys> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-
-yosys> read_verilog iiitb_pipo.v
-
-yosys> synth -top iiitb_pipo
-
-yosys> dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-
-yosys> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-
-yosys> stat
-
-yosys> show
-
-yosys> write_verilog iiitb_pipo_netlist.v
-
-$ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 ../verilog_model/primitives.v ../verilog_model/sky130_fd_sc_hd.v iiitb_pipo_netlist.v iiitb_pipo_tb.v
-
-$ ./a.out
-
-$ gtkwave iiitb_pipo_vcd.vcd
-```
 The spice netlist has to be edited to add the libraries we are using, The final spice netlist should look like the following:
 
 ```
