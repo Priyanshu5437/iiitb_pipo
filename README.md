@@ -384,5 +384,6 @@ $ ./flow.tcl -design iiitb_pipo
 <b><I> Total Power = 36.7 uW (100%) </b></I><br>
 #### 5.PERFORMANCE
 ![Screenshot from 2023-02-25 00-22-48](https://user-images.githubusercontent.com/110079807/221267032-75cf55f7-c20a-41b8-bdb6-8468391aaced.png)
-![Screenshot from 2023-02-25 00-22-54](https://user-images.githubusercontent.com/110079807/221267057-f609ee0d-df5a-4cc7-8343-decc72f91c6d.png)
+![Screenshot from 2023-02-25 00-22-54](https://user-images.githubusercontent.com/110079807/221345947-a961fcdb-0ce2-4d68-932f-db0f07610033.png)
+
 <b><I> Performance = 1/(clock period - slack) = 1/(24 - 18.40)ns = 175.571Mhz </b></I><br>
