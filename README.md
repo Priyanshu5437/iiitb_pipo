@@ -1,6 +1,4 @@
-# iiitb_pipo -- johnson counter![Screenshot from 2023-02-25 13-43-33](https://user-images.githubusercontent.com/110079807/221346625-fb35e80e-72c9-486c-b17e-7e2e8f5a0578.png)
-![Screenshot from 2023-02-25 13-43-37](https://user-images.githubusercontent.com/110079807/221346628-f394e606-152f-4d78-9994-c0dbb9e5f4d4.png)
-
+# iiitb_pipo -- johnson counter
 ### Descripton
 # Tools Used
 
