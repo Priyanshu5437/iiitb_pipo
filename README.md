@@ -1,4 +1,6 @@
-# iiitb_pipo -- johnson counter
+# iiitb_pipo -- johnson counter![Screenshot from 2023-02-25 13-43-33](https://user-images.githubusercontent.com/110079807/221346625-fb35e80e-72c9-486c-b17e-7e2e8f5a0578.png)
+![Screenshot from 2023-02-25 13-43-37](https://user-images.githubusercontent.com/110079807/221346628-f394e606-152f-4d78-9994-c0dbb9e5f4d4.png)
+
 ### Descripton
 # Tools Used
 
@@ -383,7 +385,8 @@ $ ./flow.tcl -design iiitb_pipo
 <b><I> Leakage Power = 0.209 nW (0.00%) </b></I><br>
 <b><I> Total Power = 36.7 uW (100%) </b></I><br>
 #### 5.PERFORMANCE
-![Screenshot from 2023-02-25 00-22-48](https://user-images.githubusercontent.com/110079807/221267032-75cf55f7-c20a-41b8-bdb6-8468391aaced.png)
-![Screenshot from 2023-02-25 11-02-43](https://user-images.githubusercontent.com/110079807/221346016-b46145cd-e584-4b6a-a46c-4740ffb808bd.png)
+
+![Screenshot from 2023-02-25 13-43-33](https://user-images.githubusercontent.com/110079807/221346655-94faef6d-2258-46c3-9341-49fa17a962e3.png)
+![Screenshot from 2023-02-25 13-43-37](https://user-images.githubusercontent.com/110079807/221346658-52a80477-79b9-4911-a199-ee8248fd96c8.png)
 
 <b><I> Performance = 1/(clock period - slack) = 1/(24 - 18.40)ns = 175.571Mhz </b></I><br>
